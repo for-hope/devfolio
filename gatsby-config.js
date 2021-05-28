@@ -1,58 +1,71 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://lamine.me`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Lamine Fetni',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Lamine Fetni | Mobile App Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Android / Flutter App Developer based in Germany.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: ``,
+    contact: `mailto: mlaminefetni@gmail.com`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/for-hope`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/laminefetni/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm a highly motivated software engineer who has experience building and testing mobile applications and services in various domains. I'm also passionate about contributions to other projects, working to help build great products, currently doing a master's degree in Media Informatics in the University of Bremen.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'RideGO Carpooling App',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A carpooling app for the eldery i built as the final project for my bachelor degree alongside with a thesis for it. this project got the highest given mark.',
+        link: 'https://github.com/for-hope/GoRide',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'H*App',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'from "Hdarha Startup" An AI based application that transforms face images into funny clips merged with memey audio clips from famous algerian skits',
+        link: 'https://github.com/for-hope/HApp',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Numberus - Android Puzzle Game',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'An addictive puzzle android game that was submitted to the play store with 100+ downloads then got removed after the play store changed their privacy policy system',
+        link: 'https://apkpure.com/de/numberus-genius-puzzle-game/com.lamfee.lamine.numberus',
+      },
+      {
+        name: 'Pewdstud.io',
+        description:
+          'A web app for searching captions in Youtube videos, this gives you the option to find specific phrases in Youtube videos using a custom algorithm i made, the website runs on Flask and uses caption scraping.',
+        link: 'https://pewdiepie-higherorlower.herokuapp.com/',
+      },
+      {
+        name: 'YT Caption Search Engine',
+        description:
+          'A Python script that extracts captions from videos and turns them into MySQL or an SQLite Database. that can be searched',
+        link: 'https://github.com/for-hope/YTSynth',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'PROFESSOR ASSISTANT',
+        description: 'Professor assistant in developing a Flutter application, December 2018 - July 2019',
+        link: 'https://www.univ-constantine2.dz/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Mobile & Automation Freelancer',
+        description: 'Freelance Android & Flutter Developer, July 2019 - December 2020',
+        link: '',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Software Engineer (Android)',
+        description: 'Native Android Developer, August 2019 - December 2020',
+        link: 'https://github.com/for-hope/HApp',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +73,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Java, Kotlin, Flutter, Android SDK, Dart, Python, HTML/CSS, JavaScript (ES6+) , Flask, Firebase',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, MySQL, NoSQL, Room, SQLite',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Amazon Web Services (AWS), CI / CD, API design, Machine Learning, Git , Google Maps API,  MVVC, MVC, MVP',
       },
     ],
   },
@@ -125,8 +138,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `devfolio`,
-        short_name: `devfolio`,
+        name: `lamine.me`,
+        short_name: `lamine.me`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
