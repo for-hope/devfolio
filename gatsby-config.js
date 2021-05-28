@@ -20,7 +20,7 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'RideGO Carpooling App',
+        name: 'RideGO Carpooling Application',
         description:
           'A carpooling app for the eldery i built as the final project for my bachelor degree alongside with a thesis for it. this project got the highest given mark.',
         link: 'https://github.com/for-hope/GoRide',
