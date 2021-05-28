@@ -61,7 +61,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {resume && (
+          {"resume" && (
             <li className={classes.item}>
               <a className={classes.link} href = {resumePdf} target = "_blank">
                 Resume
