@@ -3,7 +3,7 @@ import get from 'lodash/get';
 import React from 'react';
 
 import profileImg from '../../images/profile.jpg';
-import resumePdf from '../../resume.pdf'
+import resumePdf from '../../documents/resume.pdf'
 
 const classes = {
   wrapper: 'block mb-6 md:flex',
@@ -61,9 +61,16 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               </a>
             </li>
           )}
-          {contact && (
+          {resume && (
             <li className={classes.item}>
               <a className={classes.link} href = {resumePdf} target = "_blank">
+                Resume
+              </a>
+            </li>
+          )}
+          {contact && (
+            <li className={classes.item}>
+              <a className={classes.link} href={contact}>
                 Contact Me
               </a>
             </li>
