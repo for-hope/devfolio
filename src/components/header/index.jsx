@@ -71,7 +71,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           {contact && (
             <li className={classes.item}>
               <a className={classes.link} href={contact}>
-                Contact Me
+                Contact
               </a>
             </li>
           )}
