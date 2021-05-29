@@ -23,7 +23,7 @@ module.exports = {
         name: 'RideGO Carpooling Application',
         description:
           'A carpooling app for the eldery i built as the final project for my bachelor degree alongside with a thesis for it. this project got the highest given mark.',
-        link: 'https://github.com/for-hope/GoRide',
+        link: 'https://www.researchgate.net/publication/339432988_Development_of_a_mobile_application_for_carpooling_the_elderly',
       },
       {
         name: 'H*App',
@@ -44,11 +44,37 @@ module.exports = {
         link: 'https://pewdiepie-higherorlower.herokuapp.com/',
       },
       {
-        name: 'YT Caption Search Engine',
+        name: 'YT Caption Search Engine (#Python)',
         description:
           'A Python script that extracts captions from videos and turns them into MySQL or an SQLite Database. that can be searched',
         link: 'https://github.com/for-hope/YTSynth',
       },
+      {
+        name: 'Project-Sophia',
+        description:
+          'A horror game demo made in Java & Android',
+        link: 'https://github.com/for-hope/ProjectSophia',
+      },
+      {
+        name: 'ShiftrWallpaper',
+        description:
+          'A macOS like style live, dynamic wallpaper system for android that makes wallpapers change depending on the time of day.',
+        link: 'https://github.com/for-hope/ShiftrWallpaper',
+      },
+      {
+        name: 'Facebook framebot (#Python)',
+        description:
+          'A facebook bot using fb.py to post frames of the cartoon spiderman every few seconds made in python.',
+        link: 'https://www.facebook.com/everyspidermanframe/',
+      },
+
+      {
+        name: 'Safe And Sound',
+        description:
+          'A security and SOS Emergency app where you can press a button in case of an emergency and an SMS will be sent to your chosen recipient, this app got removed from the play store due to changes in their privacy rules.',
+        link: 'https://github.com/for-hope/SafeAndSound',
+      },
+
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
