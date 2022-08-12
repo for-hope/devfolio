@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Lamine Fetni | Full Stack Engineer`,
     // Description that goes under your name in main bio
-    description: `Full Stack Developer based in Germany.`,
+    description: `Full Stack Engineer based in Germany.`,
     // Optional: Twitter account handle
     author: ``,
     contact: `mailto: mlaminefetni@gmail.com`,
@@ -88,7 +88,7 @@ module.exports = {
       {
         name: 'ButtonGIF',
         description: 'A GIF website made only with HTML button elements.',
-        link: 'https://github.com/for-hope/TrivAI',
+        link: 'https://flask-buttons.herokuapp.com/',
       },
       {
         name: 'TrivAI',
