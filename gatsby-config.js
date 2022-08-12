@@ -5,9 +5,9 @@ module.exports = {
     // Your Name
     name: 'Lamine Fetni',
     // Main Site Title
-    title: `Lamine Fetni | Mobile App Developer`,
+    title: `Lamine Fetni | Full Stack Engineer`,
     // Description that goes under your name in main bio
-    description: `Android / Flutter App Developer based in Germany.`,
+    description: `Full Stack Developer based in Germany.`,
     // Optional: Twitter account handle
     author: ``,
     contact: `mailto: mlaminefetni@gmail.com`,
@@ -16,14 +16,20 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/laminefetni/`,
     // Content of the About Me section
-    about: `I'm a highly motivated software engineer who has experience building and testing mobile applications and services in various domains. I'm also passionate about contributions to other projects, working to help build great products, currently doing a master's degree in Media Informatics in the University of Bremen.`,
+    about: `An inspired and passionate full stack developer with a passion for building beautiful, performant and secure web applications :).`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'RideGO Carpooling Application',
+        name: 'The Watcher Bot',
         description:
-          'A carpooling app for the eldery i built as the final project for my bachelor degree alongside with a thesis for it. this project got the highest given mark.',
-        link: 'https://www.researchgate.net/publication/339432988_Development_of_a_mobile_application_for_carpooling_the_elderly',
+          'A Discord Bot that lets users communicate between servers using bot managed channels.',
+        link: 'https://github.com/for-hope/the-watcher-bot',
+      },
+      {
+        name: 'GoRide - Carpooling for elderly',
+        description:
+          'A carpooling android application built as a part of the final project for my bachelor degree alongside with a thesis. got awarded the top thesis in 2019.',
+        link: 'https://github.com/for-hope/GoRide',
       },
       {
         name: 'H*App',
@@ -33,26 +39,24 @@ module.exports = {
       },
       {
         name: 'Numberus - Android Puzzle Game',
-        description:
-          'An addictive puzzle android game that was submitted to the play store with 100+ downloads then got removed after the play store changed their privacy policy system',
+        description: 'An puzzle android game won the award of Fun Tech in 2017',
         link: 'https://apkpure.com/de/numberus-genius-puzzle-game/com.lamfee.lamine.numberus',
       },
       {
         name: 'Pewdstud.io',
         description:
-          'A web app for searching captions in Youtube videos, this gives you the option to find specific phrases in Youtube videos using a custom algorithm i made, the website runs on Flask and uses caption scraping.',
-        link: 'https://pewdiepie-higherorlower.herokuapp.com/',
+          'A web app for searching clips based on captions from Youtube videos, with the option to combine specific phrases in Youtube videos using a custom algorithm, the website runs on Flask and uses Python to scrape captions.',
+        link: 'https://github.com/for-hope/pewdstudio',
       },
       {
-        name: 'YT Caption Search Engine (#Python)',
+        name: 'YT Caption Search Engine',
         description:
           'A Python script that extracts captions from videos and turns them into MySQL or an SQLite Database. that can be searched',
         link: 'https://github.com/for-hope/YTSynth',
       },
       {
         name: 'Project-Sophia',
-        description:
-          'A horror game demo made in Java & Android',
+        description: 'A horror game demo made in Java & Android',
         link: 'https://github.com/for-hope/ProjectSophia',
       },
       {
@@ -62,9 +66,9 @@ module.exports = {
         link: 'https://github.com/for-hope/ShiftrWallpaper',
       },
       {
-        name: 'Facebook framebot (#Python)',
+        name: 'Facebook framebot',
         description:
-          'A facebook bot using fb.py to post frames of the cartoon spiderman every few seconds made in python.',
+          'A facebook page bot that uses fb.py to post frames of the cartoon spiderman every few seconds made in python.',
         link: 'https://www.facebook.com/everyspidermanframe/',
       },
 
@@ -75,40 +79,72 @@ module.exports = {
         link: 'https://github.com/for-hope/SafeAndSound',
       },
 
+      {
+        name: 'TCG Classifier',
+        description:
+          'A Python library for classifying Card images of the Trading Card Games YuGiOh, Magic The Gathering and Pokemon TCG. using Machine Learning models',
+        link: 'https://github.com/for-hope/SafeAndSound',
+      },
+      {
+        name: 'ButtonGIF',
+        description: 'A GIF website made only with HTML button elements.',
+        link: 'https://github.com/for-hope/TrivAI',
+      },
+      {
+        name: 'TrivAI',
+        description: 'A Quiz Game Showcase application made in flutter',
+        link: 'https://github.com/for-hope/TrivAI',
+      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'PROFESSOR ASSISTANT',
-        description: 'Professor assistant in developing a Flutter application, December 2018 - July 2019',
-        link: 'https://www.univ-constantine2.dz/',
-      },
-      {
-        name: 'Mobile & Automation Freelancer',
-        description: 'Freelance Android & Flutter Developer, July 2019 - December 2020',
+        name: 'Co-founder & Android Developer',
+        description:
+          'Co-founder and android application maintainer for Hdarha Startup - a mobile that uses AI to generate meme videos from user pictures, May 2019 - August 2020',
         link: '',
       },
       {
-        name: 'Software Engineer (Android)',
-        description: 'Native Android Developer, August 2019 - December 2020',
-        link: 'https://github.com/for-hope/HApp',
+        name: 'Full Stack Software Engineer ',
+        description:
+          'Frontend and Backend Software Engineer for Chainstep and Kollektor.io',
+        link: 'https://kollektor.io/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Languages',
         description:
-          'Java, Kotlin, Flutter, Android SDK, Dart, Python, HTML/CSS, JavaScript (ES6+) , Flask, Firebase',
+          'Java, Kotlin, Python, HTML/CSS/JS, Typescript, C#, Dart, SQL',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, MySQL, NoSQL, Room, SQLite',
+        name: 'Frameworks',
+        description:
+          'NodeJS, ReactJS, ExpressJS, Flask, Django, Flutter, MongoDB, PostgreSQL, TensorFlow, Redux',
       },
       {
-        name: 'Other',
+        name: 'Tools & Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, API design, Machine Learning, Git , Google Maps API,  MVVC, MVC, MVP',
+          'Git, Docker, Linux, CI/CD, Cypress, Unity3D, API Design, Firebase, Google Maps API',
+      },
+    ],
+
+    languages: [
+      {
+        name: 'English',
+        description:
+          'Full professional proficiency in English',
+      },
+      {
+        name: 'French',
+        description:
+          'Work proficiency in French',
+      },
+      {
+        name: 'Arabic',
+        description:
+          'Fluent in Arabic',
       },
     ],
   },
