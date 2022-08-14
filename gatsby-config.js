@@ -82,8 +82,8 @@ module.exports = {
       {
         name: 'TCG Classifier',
         description:
-          'A Python library for classifying Card images of the Trading Card Games YuGiOh, Magic The Gathering and Pokemon TCG. using Machine Learning models',
-        link: 'https://github.com/for-hope/SafeAndSound',
+          'A Python project for classifying Card images of the Trading Card Games YuGiOh, Magic The Gathering and Pokemon TCG. using Machine Learning models',
+        link: 'https://github.com/for-hope/TCG-classifier',
       },
       {
         name: 'ButtonGIF',
