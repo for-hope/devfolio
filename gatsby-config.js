@@ -28,7 +28,7 @@ module.exports = {
       {
         name: 'GoRide - Carpooling for elderly',
         description:
-          'A carpooling android application built as a part of the final project for my bachelor degree alongside with a thesis. got awarded the top thesis in 2019.',
+          'A carpooling android application built as a part of the final project for my bachelor degree alongside with a thesis. Got awarded the top thesis in 2019.',
         link: 'https://github.com/for-hope/GoRide',
       },
       {
